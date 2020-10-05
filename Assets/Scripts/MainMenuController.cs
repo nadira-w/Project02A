@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
-    [SerializeField] Text _highScoreTextView;
+    [SerializeField] Text _highScoreTextView = null;
 
     void Start()
     {

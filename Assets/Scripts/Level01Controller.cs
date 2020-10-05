@@ -6,18 +6,20 @@ using UnityEngine.UI;
 
 public class Level01Controller : MonoBehaviour
 {
-    [SerializeField] Text _currentScoreTextView;
-    [SerializeField] GameObject _PopupMenu;
+    [SerializeField] Text _currentScoreTextView = null;
+    [SerializeField] GameObject _PopupMenu = null;
+    [SerializeField] GameObject _RetryMenu = null;
 
     int _currentScore;
     
     void Start()
     {
         _PopupMenu.SetActive(false);
+        _RetryMenu.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = (false);
     }
-    private void Update()
+    public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -27,6 +29,7 @@ public class Level01Controller : MonoBehaviour
         {
             PopupMenu();
         }
+ 
     }
     public void IncreaseScore(int scoreIncrease)
     {
@@ -40,7 +43,12 @@ public class Level01Controller : MonoBehaviour
         bool currentIsActive = _PopupMenu.activeSelf;
         _PopupMenu.SetActive(!currentIsActive);
 
-        //_PopupMenu.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = (true);
+    }
+    public void RetryMenu()
+    {
+        _RetryMenu.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = (true);
     }
