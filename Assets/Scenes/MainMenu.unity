@@ -968,6 +968,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d080726fa89a87c46b8b71d1bc9b6013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+  _startingSong: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!1 &728418145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,7 +1208,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c496962d767d2a46b6b83111a067a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   _startingSong: {fileID: 8300000, guid: 7d8682da52f92e54e926997511adb98c, type: 3}
+=======
+>>>>>>> Stashed changes
   _highScoreTextView: {fileID: 194939301}
 --- !u!1 &918739626
 GameObject:

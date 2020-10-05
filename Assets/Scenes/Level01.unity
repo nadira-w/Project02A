@@ -1636,7 +1636,11 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
+<<<<<<< Updated upstream
   playOnAwake: 0
+=======
+  playOnAwake: 1
+>>>>>>> Stashed changes
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -8102,7 +8106,11 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7d8682da52f92e54e926997511adb98c, type: 3}
   m_PlayOnAwake: 1
+<<<<<<< Updated upstream
   m_Volume: 0.5
+=======
+  m_Volume: 0.343
+>>>>>>> Stashed changes
   m_Pitch: 1
   Loop: 1
   Mute: 0
