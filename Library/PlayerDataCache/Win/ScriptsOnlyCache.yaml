@@ -656,8 +656,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level01.unity
   playerPath: C:/Users/Nadir/Google Drive/School Assignments/Scripting for Games/Project
-<<<<<<< Updated upstream
-    02A/Builds/Project 02A.exe
-=======
     02A/Builds/WilliamsNadira_P02B/Project 02A.exe
->>>>>>> Stashed changes
